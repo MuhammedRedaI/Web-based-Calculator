@@ -1,0 +1,98 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: gainsboro;
+    box-sizing:border-box;
+    margin:20px 100px auto 100px;
+}
+
+.output{
+    color:white;
+    grid-area:output;
+}
+.calc-clear{
+    grid-area:clear;
+}
+.calc-return{
+    grid-area:return;
+}
+.calc-7{
+    grid-area:seven;
+}
+.calc-8{
+    grid-area:eight;
+}
+.calc-9{
+    grid-area:nine;
+}
+.calc-multiply{
+    grid-area:multi;
+}
+.calc-division{
+    grid-area:div;
+}
+.calc-4{
+    grid-area:four;
+}
+.calc-5{
+    grid-area:five;
+}
+.calc-6{
+    grid-area:six;
+}
+.calc-minus{
+    grid-area:min;
+}
+.calc-1{
+    grid-area:one;
+}
+.calc-2{
+    grid-area:two;
+}
+.calc-3{
+    grid-area:three;
+}
+.calc-plus{
+    grid-area:plu;
+}
+.calc-0{
+    grid-area:zeroo;
+}
+.calc-equal{
+    grid-area:equ;
+}
+
+.calc-body{
+    display:grid;
+    grid-template-areas: 
+    "output output output output"
+    "clear clear  return div"
+    "seven eight nine multi"
+    "four five six min"
+    "one two three plu"
+    "zeroo zeroo zeroo equ"
+    ;
+    column-gap:2px;
+    row-gap:2px;
+    background-color:black;
+
+}
+
+.btn{
+    background-color:rgb(188, 184, 184);
+    border:none;
+    width:100%;
+    height:70px;
+    font-size:30px;
+}
+.operator{
+    background-color: #e87f30;
+    color: white;
+}
+.output{
+    background-color: #111;
+    text-align:right;
+    box-sizing:border-box;
+    padding-top:1px;
+    height:70px;
+    font-size:40px;
+}
