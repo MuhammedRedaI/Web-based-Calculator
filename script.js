@@ -1,18 +1,4 @@
-nine = document.querySelector(".btn-9");
-eight = document.querySelector(".btn-8");
-seven = document.querySelector(".btn-7");
-six = document.querySelector(".btn-6");
-five = document.querySelector(".btn-5");
-four = document.querySelector(".btn-4");
-three = document.querySelector(".btn-3");
-two = document.querySelector(".btn-2");
-one = document.querySelector(".btn-1");
-zero = document.querySelector(".btn-0");
-output = document.querySelector(".output")
-plusBtn = document.querySelector(".plus-btn")
-minusBtn = document.querySelector(".minus-btn")
-divisionBtn = document.querySelector(".division-btn")
-multiplyBtn = document.querySelector(".multiply-btn")
+
 equalBtn = document.querySelector(".equal-btn")
 operatorBtns = document.querySelectorAll(".operator");
 normalBtns = document.querySelectorAll(".normal-btn");
